@@ -1,0 +1,31 @@
+{
+  "name": "string-to-yargs",
+  "version": "0.0.1",
+  "description": "Parse from a string to yargs (pirate) data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "string",
+    "argv",
+    "yargs",
+    "parser",
+    "cool"
+  ],
+  "author": "allnulled",
+  "license": "WTFPL",
+  "dependencies": {
+    "string-argv": "^0.3.1",
+    "yargs-parser": "^18.1.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/string-to-yargs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allnulled/string-to-yargs/issues"
+  },
+  "homepage": "https://github.com/allnulled/string-to-yargs#readme"
+}

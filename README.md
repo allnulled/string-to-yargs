@@ -8,7 +8,13 @@ Parse a string to [`yargs`](https://www.npmjs.com/package/yargs-parser) data.
 
 ## Usage
 
-This is the 
+You pass a string like if you were from the command line.
+
+You get its [`yargs`](https://www.npmjs.com/package/yargs-parser) parsed data.
+
+## Example
+
+This is the official test of the tool:
 
 ```js
 const parse = require("string-to-yargs");
@@ -26,3 +32,11 @@ if(bool !== true) throw new Error(4);
 if(text !== "some text") throw new Error(5);
 console.log("Test passed!");
 ```
+
+## License
+
+This project is licensed under [WTFPL or What The Fuck Public License](https://es.wikipedia.org/wiki/WTFPL), so do what you want.
+
+## Issues
+
+Please, address issues [here](https://github.com/allnulled/string-to-yargs/issues).
